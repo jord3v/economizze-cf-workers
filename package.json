@@ -1,0 +1,21 @@
+{
+  "name": "economizze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20260103.0",
+    "hono": "^4.11.3"
+  },
+  "devDependencies": {
+    "wrangler": "^4.54.0"
+  }
+}

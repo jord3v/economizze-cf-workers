@@ -1,0 +1,34 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cloudflare Workers & Wrangler (IMPORTANTE)
+.wrangler/
+.dev.vars
+wrangler.toml.timestamp*
+
+# Arquivos de Build e Dist
+dist/
+build/
+worker/
+
+# Banco de dados local (SQLite/D1 backups manuais)
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE (Opcional, mas recomendado)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de Teste/Coverage
+coverage/
