@@ -1,0 +1,8 @@
+name = "economizze"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "DB" # O nome deve ser exatamente este, conforme src/types.ts
+database_name = ""
+database_id = ""
